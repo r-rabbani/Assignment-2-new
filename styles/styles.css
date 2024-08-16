@@ -1,0 +1,159 @@
+/* Inter Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+  }
+
+  /* script */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #E6533C;
+  }
+/* Button styles */
+.btn-primary{
+    background-color: #E6533C;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    he
+}
+.btn-secondary{
+    background-color: #000000;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px 40px;
+    border: 1px solid rgb(112, 112, 112);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+}
+
+#home {
+    background-color: #E6533C;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px 15px;
+}
+  
+
+
+  /* Nav Styles */
+
+  .main{
+    padding: 60px 190px;
+    background-color: black;
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+  }
+
+  .brand{
+    color: #E6533C;
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: oblique;
+  }
+
+  .nav-item{
+    font-size: 1.125rem;
+  }
+
+  .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    padding: 0 30px 0 0;
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  /* banner styles */
+
+  .background{
+    background: linear-gradient(bottom, rgb(253, 253, 253), rgb(107, 107, 107));
+  }
+
+  .banner-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .shape-text{
+    font-size: 4.875rem;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-top: 70px;
+  }
+  .shape-description{
+    font-size: 1rem;
+    color: rgb(146, 146, 146);
+
+  }
+  .buttons{
+    display: flex;
+    justify-content: ;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  .dumbell{
+    display: flex;
+    justify-content: center;
+    fle
+  }
+  /* Gym Card Styles */
+  .gym-card{
+    width: 12rem;
+    height: 5rem;
+    background: rgba(255, 255, 255, 0.137);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(10px);
+    /* justify-content: right; */
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px 23px;
+    gap: 20px;
+
+  }
+  .card-1{
+    margin-bottom: 500px;
+  }
+
+.text{
+    display:  flex;
+    flex-direction: column;
+    margin: 0.;
+    justify-content: center;
+}
+  .circle{
+    background-color: #E6533C;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    align-items: center;
+
+
+}
+.video-no{
+    font-size: 1.5rem;
+}
