@@ -113,7 +113,7 @@
 }
 
 .shape-description{
-  font-size: ;
+  font-size: 1rem;
 }
 
 
@@ -161,6 +161,15 @@
 .video-2{
   margin-top: -200px;
   margin-left: -80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: row;
+}
+.circle{
+  height: 2rem;
+  width: 2rem;
+  background-color: #E6533C;
+  border-radius: 50%;
 }
 
 /* Habit Section */
@@ -170,7 +179,7 @@
     margin-top: 200px;
 }
 .habit-desc{
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin-top: -30px;
 }
 .change-habit{
@@ -203,7 +212,36 @@
     color: #555;
 }
 
+/* Run an Extra Mile style */
+.mile-section{
+  background-color: rgba(71, 71, 71, 0.5);
+  display: flex;
+  justify-content: space-around;
+  /* gap: 200px; */
 
+}
+.mile-title{
+  font-size: 3rem;
+}
+.extra-mile{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.image-crop-zoom {
+  width: 40rem;
+  height: 20rem;
+  background-image: url('/images/run.jpg');
+  background-size: 350%;
+  background-position: 68% 32%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  max-width: 100%;
+  margin: 30px;
+}
 
 
 /* Media Responsive Styles */
@@ -238,6 +276,20 @@
     justify-content: center;
     margin: 0;
   }
+  .mile-section{
+    flex-direction: column;
+    
 
+  }
+  .extra-mile{
+    max-width: %;
+    margin-left: -35px;
+    margin-right: -20px;
+  }
+  .image-crop-zoom{
+    background-size: 100%;
+    max-width: 100%;
+    margin-left: 0px;
+  }
   
 }
