@@ -438,17 +438,17 @@
 /* Footer Section */
 .footer{
   background-color: rgba(50, 50, 50, 0.5);
-  margin: 0 -200px;
-  padding: 0 200px 30px 200px;
+  /* margin: 0 -200px;
+  padding: 0 200px 30px 200px; */
+  padding: 20px;
 
 }
 .footer-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
-  margin-bottom: ;
-  
-}
+  margin-bottom: 30px;
+ }
 .fit{
   font-size: 4rem;
   margin: auto;
@@ -549,9 +549,14 @@
   .footer-section{
     grid-template-columns: repeat(1, 1fr);
     /* margin-right: 10px; */
+    max-width: 100%;
   }
+  .footer-section{
+    padding: 10px;
+  }
+  .footer-section
   .get-started{
-    /* margin-left: -50px; */
+    margin-left: -70px;
   }
 
   /* Blog Post */
