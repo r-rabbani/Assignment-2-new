@@ -243,7 +243,77 @@
   margin: 30px;
 }
 
-/* Team Styles */
+/* BMI Calculator Styles */
+
+
+  .calculator-section h2{
+    font-size: ;
+  }
+  .bmi-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    border: 1px solid red;
+
+  }
+  .bmi-chart, .bmi-calculator{
+    width: 48%;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .bmi-chart h2, .bmi-calculator h2{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .bmi-chart table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .bmi-chart table, .bmi-chart th, .bmi-chart td {
+    border: 1px solid #414141;
+  }
+  .bmi-chart th, .bmi-chart td {
+    padding: 12px;
+    text-align: left;
+  }
+
+  .bmi-calculator p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .bmi-calculator form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bmi-calculator .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 5px;
+  }
+
+.bmi-calculator .half {
+  width: 42%; 
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+
+  .bmi-calculator input, .bmi-calculator select {
+    background-color: #414141;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+  }
+  
+
+
+/* Meet Our Team St yles */
 .team-section{
   text-align: center;
   margin-top: 100px;
@@ -304,17 +374,79 @@
   margin: 0;
 }
 
+/* Fitness Blog Styles */
+.fitness-blog {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.fitness-blog h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.fitness-blog .blog-posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fitness-blog .post {
+  flex: 1;
+  margin: 20px 10px;
+  padding: 20px;
+  background-color: #202020;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  text-align: left;
+
+}
+
+.fitness-blog .post-image {
+  height: 400px; /* Set a fixed height */
+    width: 100%;
+    object-fit: cover;
+    object-position: 60% 50%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+#image-1{
+  background-position: center center;
+}
+
+.fitness-blog .post h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.fitness-blog .post p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.fitness-blog .post a {
+  font-size: 1em;
+  color: #E6533C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fitness-blog .post a:hover {
+  text-decoration: underline;
+}
+
 /* Footer Section */
 .footer{
   background-color: rgba(50, 50, 50, 0.5);
-  padding: 10px;
-  margin-top: 50px;
+  margin: 0 -200px;
+  padding: 0 200px 30px 200px;
 
 }
 .footer-section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* gap: 0px; */
   margin: auto;
   margin-bottom: ;
   
@@ -335,7 +467,7 @@
 }
 .list{
   list-style: none;
-  font-size: 1.435rem;
+  font-size: 1.25rem;
 }
 
 .line {
@@ -348,6 +480,9 @@
   font-size: 1.1rem;
   font-weight: 300;
 }
+
+
+
 
 
 

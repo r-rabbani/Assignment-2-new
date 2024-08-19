@@ -70,7 +70,7 @@
             <div class="profile">
                 <img src="images/image 2.png" alt="">
                 <h4>Time</h4>
-                <p class="dark-gray">Making time for fitness is investing in your health.</p>
+                <p class="dark-gray ">Making time for fitness is investing in your health.</p>
             </div>
             <div class="profile">
                 <img src="images/image 4.png" alt="">
@@ -96,8 +96,64 @@
                 <div class="image-crop-zoom"></div>
         </section>
         <!-- BMI Calculator -->
-        <section>
-
+        <section class="calculator-section">
+            <div class="container">
+                <h2>BMI Calculator</h2>
+                <p class="dark-gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+            <div class="bmi-section">
+                <div class="bmi-chart">
+                    <h2>BMI Calculator Chart</h2>
+                    <table>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Underweight</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
+                </div>
+            
+            <div class="bmi-calculator">
+                <h2>Calculate your BMI</h2>
+                <p class="dark-gray">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <form class="form">
+                    <div class="row">
+                        <input type="text" placeholder="Height/inch" class="half">
+                    <input type="text" placeholder="Weight/kg" class="half">
+                    </div>
+                    <div class="row">
+                    <select >
+                        <option value="sex" >Sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                    <input type="text" placeholder="Age" class="half">
+                    </div>
+                    <select>
+                        <option value="activity factor">Select an activity factor</option>
+                        <option value="low">Low</option>
+                        <option value="moderate">Moderate</option>
+                        <option value="high">High</option>
+                    </select>
+                    <button type="submit" class="btn-primary">Calculate</button>
+                </form>
+            </div>
+        </div>
         </section>
         <!-- Meet Our Team -->
         <section>
@@ -152,8 +208,42 @@
                     </div>
                 </div>
             </div>
-            
         </section>
+
+            <!-- Fitness Blog Section -->
+
+            <section id="fitness-blog" class="fitness-blog">
+    <div class="container">
+        <h2>Fitness Blog</h2>
+        <p class="dark-gray">Discover expert tips, workouts, and nutrition advice to help 
+            <br>
+            you reach your fitness goals and live healthier.</p>
+        <div class="blog-posts">
+            <div class="post">
+                <img src="images/fitness 1.jpg" alt="Core Exercises" class="post-image" id="image-1">
+                <h3>Top 10 Exercises for a Stronger Core</h3>
+                <p class="dark-gray">Discover the most effective exercises to strengthen your core muscles.</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="post">
+                <img src="images/fitness 3.jpg" alt="Stay Motivated" class="post-image">
+                <h3>How to Stay Motivated During Your Fitness Journey</h3>
+                <p class="dark-gray">Learn tips and tricks to keep your motivation levels high.</p>
+                <a href="#">Read More</a>
+            </div>
+
+            <div class="post">
+                <img src="images/fitness 2.jpg" alt="Healthy Snacks" class="post-image">
+                <h3>Healthy Snacks for Your Workout Routine</h3>
+                <p class="dark-gray">Find out which snacks can help fuel your workouts.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
     </main>
     <footer class="footer">
         <!-- Fitness Footer Section -->
