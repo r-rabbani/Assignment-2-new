@@ -245,16 +245,14 @@
 
 /* BMI Calculator Styles */
 
-
   .calculator-section h2{
-    font-size: ;
+    font-size: 3rem;
+    font-weight: 800;
   }
   .bmi-section{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
-    border: 1px solid red;
-
+    padding: 20px;
   }
   .bmi-chart, .bmi-calculator{
     width: 48%;
@@ -534,6 +532,15 @@
     max-width: 100%;
     margin-left: 0px;
   }
+  /* BMI Calculator */
+
+  .bmi-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: -370px ;
+    margin-left: -35px;
+  }
+
   /* Team Meet Responsive */
   .image-grid{
     display: flex;
@@ -546,7 +553,13 @@
   .get-started{
     /* margin-left: -50px; */
   }
-  
+
+  /* Blog Post */
+  .blog-posts{
+    display: flex;
+    flex-direction: column;
+
+  }
 
   }
   
