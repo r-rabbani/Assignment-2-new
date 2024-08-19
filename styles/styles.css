@@ -237,20 +237,20 @@
   height: 20rem;
   overflow: hidden;
   border-radius: 10px;
-  margin: 50px 10px;
+  margin: 50px 20px;
   position: relative;
 
 }
 
 .image-container img {
-  width: 300%;
+  width: 200%;
   height: 300%;
   object-fit: cover;
   object-position: center;
   border-radius: 10px;
   position: absolute;
-  top: 85%;
-  left: 10%;
+  top: 100%;
+  left: 15%;
   transform: translate(-50%, -50%);
 }
 
@@ -546,7 +546,7 @@
     height: 20rem;
     overflow: hidden;
     border-radius: 10px;
-    margin: 50px 10px;
+    margin: 50px 05px;
     position: relative;
   
   }
@@ -556,10 +556,10 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    border-radius: 15px;
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 48%;
     transform: translate(-50%, -50%);
   }
   /* BMI Calculator */
