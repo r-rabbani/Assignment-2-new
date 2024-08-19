@@ -305,6 +305,10 @@
     gap: 5px;
   }
 
+  #sex{
+    width: 47%;
+  }
+
 .bmi-calculator .half {
   width: 42%; 
   padding: 12px;
