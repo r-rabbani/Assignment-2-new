@@ -214,10 +214,10 @@
 
 /* Run an Extra Mile style */
 .mile-section{
-  background-color: rgba(71, 71, 71, 0.5);
+  background-color: rgba(50, 50, 50, 0.5);
   display: flex;
   justify-content: space-around;
-  /* gap: 200px; */
+  border-radius: 20px;
 
 }
 .mile-title{
@@ -261,16 +261,18 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 200px);
   gap: 10px;
-  height: 17rem;
+  margin-top: 50px;
 }
 .image-box {
   position: relative;
   overflow: hidden;
   background-color: #f0f0f0;
   border: 8px;
-  background-position: center;
+  background-size: 100%;
+  background-position: top center;
   background-repeat: no-repeat;
   height: 100%;
+  border-radius: 10px;
   transition: background-size 0.3s ease-in-out, background-position 0.3s ease-in-out;
 }
 .image-box img {
@@ -281,8 +283,8 @@
   border-radius: 8px;
 }
 .image-box:hover {
-  background-size: 120%; 
-  background-position: center center; 
+  background-size: 150%; 
+  background-position: top center; 
 }
 .team-mate {
   position: absolute;
@@ -301,6 +303,53 @@
 .title {
   margin: 0;
 }
+
+/* Footer Section */
+.footer{
+  background-color: rgba(50, 50, 50, 0.5);
+  padding: 10px;
+  margin-top: 50px;
+
+}
+.footer-section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 0px; */
+  margin: auto;
+  margin-bottom: ;
+  
+}
+.fit{
+  font-size: 4rem;
+  margin: auto;
+  margin-top: 30px;
+}
+.get-started{
+  padding-left: 70px;
+  margin-right: 10px;
+}
+.start-title{
+  margin-left: 40px;
+  margin-bottom: 30px;
+  font-size: 1.7rem;
+}
+.list{
+  list-style: none;
+  font-size: 1.435rem;
+}
+
+.line {
+  max-width: 100%;
+  border: 0.5px solid rgb(90, 90, 90);
+}
+
+.copyright{
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+
 
 /* Media Responsive Styles */
 
@@ -350,5 +399,19 @@
     max-width: 100%;
     margin-left: 0px;
   }
+  /* Team Meet Responsive */
+  .image-grid{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-section{
+    grid-template-columns: repeat(1, 1fr);
+    /* margin-right: 10px; */
+  }
+  .get-started{
+    /* margin-left: -50px; */
+  }
   
-}
+
+  }
+  
